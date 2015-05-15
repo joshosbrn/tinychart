@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TinyChart</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s.npr.org/templates/css/fonts/GothamSSm.css">
+    
+  </head>
+  <body>
+
+  <img class="npr-logo" width="70px" height="auto" src="images/tinychart-logo.svg">
+  <div class="ext-title"><a class="title-link" href="options.html">NPR Analytics Dashboard</a></div>
+
+    <div class="site-data">
+
+      <div class="section-title">
+        Concurrent Visits to npr.org
+      </div>
+      <div id="concurrent-visits-counter"></div>
+
+      <hr>
+
+      <div class="section-title">
+        Most Visited Pages
+      </div>
+      <div class="page">
+        <div id="story-title-0" class="story-title"></div>
+        <div id="top-pages-path-0" class="path truncate"></div>
+        <div id="top-pages-visits-0" class="visits"></div>
+      </div>
+
+      <div class="page">
+        <div id="story-title-1" class="story-title"></div>
+        <div id="top-pages-path-1" class="path truncate"></div>
+        <div id="top-pages-visits-1" class="visits"></div>
+      </div>
+      
+      <div class="page">
+        <div id="story-title-2" class="story-title"></div>
+        <div id="top-pages-path-2" class="path truncate"></div>
+        <div id="top-pages-visits-2" class="visits"></div>
+      </div>
+      
+    </div>
+
+    <script src="js/jquery.js"></script> 
+    <script src="js/popup.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,92 @@
+body {
+  font-family: "Gotham SSm", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  padding: 15px;
+  width: 400px;
+}
+
+.ext-title {
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: #7C7C7C;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #7c7c7c;
+  outline: none;
+}
+
+a {
+  color: #7A96CC;
+}
+
+.npr-logo {
+  float: right;
+}
+
+.footer {
+  background: #fff;
+}
+
+.footer-wrapper {
+  background: #fff;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 16px;
+  color: #7C7C7C;
+  margin: 0 0 4px 0;
+}
+
+.site-data {
+  padding: 60px 0 0 0;
+  z-index: -1;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #D3D3D3;
+    margin: 30px 0 40px 0;
+}
+
+#concurrent-visits-counter {
+  font-size: 57px;
+  color: #7A96CC;
+  margin: 0;
+  line-height: 1em;
+}
+
+.visits {
+  font-size: 1.2em;
+  color: #7A96CC;
+  font-weight: 700;
+  margin: 4px 0 0 0;
+}
+
+.page {
+  padding: 3px 0 12px 0;
+  overflow: hidden;
+}
+
+.path {
+  font-size: .8em;
+  color: #B7B7B7;
+  line-height: 1.3em;
+}
+
+.truncate {
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.story-title {
+  font-size: 1.1em;
+}
