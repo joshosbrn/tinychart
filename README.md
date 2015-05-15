@@ -1,5 +1,5 @@
 # tinychart ![pre-release badge](https://img.shields.io/badge/extension-pre--release-green.svg)
-TinyChart is a tiny analytics dashboard via Chrome extension built using the Chartbeat API.
+TinyChart is a tiny analytics dashboard via Chrome extension built using the Chartbeat API & Chartbeat Labs' [jChartbeat](https://github.com/chartbeat-labs/jChartbeat) plugin.
 
 ## Usage
 You can get set up with TinyChart in 3 easy steps:
